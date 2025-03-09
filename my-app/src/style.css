@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(246, 235, 215);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Har group ke beech gap */
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* p aur input ke beech gap */
+    padding: 5px;
+}
+
+.data {
+    color: black;
+}
+
+.nodata {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+}
